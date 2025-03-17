@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/view-dashboard.svg" />
 </head>
 
 <body>
@@ -44,121 +45,157 @@
                 </div>
                 <div id="header-bottom">
                     <div id="profile-bottom">
-                        <div id="profile-bottom-avatar"></div>
+                        <div id="profile-bottom-avatar"><img src="images/avatar-svgrepo-com (1).svg" alt=""></div>
                         <div id="profile-bottom-text">
-                            <img src="images/avatar-svgrepo-com (1).svg" alt="">
                             <div id="greeting">Hi there,</div>
                             <div id="profile-bottom-name">Morgan Oakley (@morgan)</div>
                         </div>
                     </div>
                     <div id="bottom-right-tabs">
-                        <div id="tab new">New</div>
-                        <div id="tab upload">Upload</div>
-                        <div id="tab share">Share</div>
+                        <div class="header-tab new">New</div>
+                        <div class="header-tab upload">Upload</div>
+                        <div class="header-tab share">Share</div>
                     </div>
                 </div>
             </div>
             <div id="content">
-                <div id="projects">
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                <div id="main-projects">
+                    <div id="projects-header">Your projects</div>
+                    <div id="projects">
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">Website Redesign</div>
+                                <div class="project-text">Improving user interface and enhancing overall user experience
+                                    for
+                                    better engagement and retention.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">Mobile App</div>
+                                <div class="project-text">Developing cross-platform mobile app focusing on speed,
+                                    responsiveness, and intuitive navigation features.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">SEO Campaign</div>
+                                <div class="project-text">Optimizing website content and structure to improve visibility
+                                    on
+                                    search engines and increase traffic.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">Product Launch</div>
+                                <div class="project-text">Coordinating marketing and development teams to successfully
+                                    launch the new product line globally.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">Data Analysis</div>
+                                <div class="project-text">Analyzing user behavior data to identify trends and improve
+                                    business decision-making processes.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-header"></div>
-                        <div class="project-text"></div>
-                        <div class="project-icons">
-                            <div class="star"><img src="images/star-plus-outline.svg" alt=""></div>
-                            <div class="veiw"><img src="images/eye-plus-outline.svg" alt=""></div>
-                            <div class="share"><img src="images/source-fork.svg" alt=""></div>
+                        <div class="project">
+                            <div class="first-block">
+                                <div class="project-header">Cloud Migration</div>
+                                <div class="project-text">Transitioning company services to cloud infrastructure for
+                                    scalability, security, and cost-effectiveness.</div>
+                            </div>
+                            <div class="project-icons">
+                                <div class="star"><img src="images/star-plus-outline.svg" alt="Add to favorites"></div>
+                                <div class="view"><img src="images/eye-plus-outline.svg" alt="View project"></div>
+                                <div class="share"><img src="images/source-fork.svg" alt="Share project"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="side-info">
                     <div id="announcements">
-                        <p id="announce-main-header"> Announcements</p>
-                        <div id="ann-block maintains">
-                            <div class="announce-header"></div>
-                            <div class="announce-text"></div>
-                        </div>
-                        <div id="ann-block share-day">
-                            <div class="announce-header"></div>
-                            <div class="announce-text"></div>
-                        </div>
-                        <div id="ann-block privacy-policy">
-                            <div class="announce-header"></div>
-                            <div class="announce-text"></div>
+                        <p id="announce-main-header">Announcements</p>
+                        <div class="announcements-main">
+
+                            <div class="ann-block maintains">
+                                <div class="announce-header">Scheduled Maintenance</div>
+                                <div class="announce-text">Our servers will undergo scheduled maintenance on March 20th,
+                                    from 2 AM to 5 AM UTC.</div>
+                            </div>
+
+                            <div class="ann-block share-day">
+                                <div class="announce-header">Team Share Day</div>
+                                <div class="announce-text">Join us this Friday for a collaborative session to exchange
+                                    ideas and share project updates.</div>
+                            </div>
+
+                            <div class="ann-block privacy-policy">
+                                <div class="announce-header">Privacy Policy Update</div>
+                                <div class="announce-text">We’ve updated our privacy policy to enhance transparency and
+                                    better protect your personal information.</div>
+                            </div>
                         </div>
                     </div>
                     <div id="trending">
                         <p id="trend-main-header">Trending</p>
-                        <div class="other-profiles">
-                            <div class="other-profile-avatar"></div>
-                            <div class="other-profile-text-block">
-                                <div class="other-profile-nickname"><img src="images/avatar-svgrepo-com (2).svg" alt="">@tegan</div>
-                                <div class="other-profile-rank">World Peace Builder</div>
+                        <div class="trending-main">
+                            <div class="other-profiles">
+                                <div class="other-profile-avatar"><img src="images/avatar-svgrepo-com (2).svg"
+                                    alt=""></div>
+                                <div class="other-profile-text-block">
+                                    <div class="other-profile-nickname">@tegan</div>
+                                    <div class="other-profile-rank">World Peace Builder</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="other-profiles">
-                            <div class="other-profile-avatar"></div>
-                            <div class="other-profile-text-block">
-                                <div class="other-profile-nickname"><img src="images/avatar-svgrepo-com (1).svg" alt="">@morgan</div>
-                                <div class="other-profile-rank">Super Cool Project</div>
+                            <div class="other-profiles">
+                                <div class="other-profile-avatar"><img src="images/avatar-svgrepo-com (1).svg"
+                                    alt=""></div>
+                                <div class="other-profile-text-block">
+                                    <div class="other-profile-nickname">@morgan</div>
+                                    <div class="other-profile-rank">Super Cool Project</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="other-profiles">
-                            <div class="other-profile-avatar"></div>
-                            <div class="other-profile-text-block">
-                                <div class="other-profile-nickname"><img src="images/avatar-svgrepo-com (3).svg" alt="">@kendall</div>
-                                <div class="other-profile-rank">Life Changing App</div>
+                            <div class="other-profiles">
+                                <div class="other-profile-avatar"><img src="images/avatar-svgrepo-com (3).svg"
+                                    alt=""></div>
+                                <div class="other-profile-text-block">
+                                    <div class="other-profile-nickname">@kendall</div>
+                                    <div class="other-profile-rank">Life Changing App</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="other-profiles">
-                            <div class="other-profile-avatar"></div>
-                            <div class="other-profile-text-block">
-                                <div class="other-profile-nickname"><img src="images/avatar-svgrepo-com.svg" alt="">@alex</div>
-                                <div class="other-profile-rank">No Trafic Maker</div>
+                            <div class="other-profiles">
+                                <div class="other-profile-avatar"><img src="images/avatar-svgrepo-com.svg"
+                                    alt=""></div>
+                                <div class="other-profile-text-block">
+                                    <div class="other-profile-nickname">@alex</div>
+                                    <div class="other-profile-rank">No Trafic Maker</div>
+                                </div>
                             </div>
                         </div>
                     </div>
