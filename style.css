@@ -89,6 +89,10 @@ input {
     gap: 20px;
     align-items: center;
 }
+#search-place {
+    text-align: center;
+    font-size: 1em;
+}
 #magnify,
 #bell-ring {
     width: 25px;
